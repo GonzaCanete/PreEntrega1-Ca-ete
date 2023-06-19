@@ -1,0 +1,23 @@
+.navBarContainer {
+    width: 100%;
+    background-color: orange;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    column-gap: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.listStyle {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
